@@ -2,29 +2,43 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-} 
-
-.menu-container {
-    /* Flexbox */
-    display: flex;
-    justify-content: center;
+  }
+  
+  .menu-container {
     color: #fff;
-    background-color: #5995DA; /* Blue */
+    background-color: #5995DA;  /* Blue */
     padding: 20px 0;
-}
-
-.menu {
+    display:flex;
+    justify-content: center;    /* Add this */
+  }
+  
+  .menu {
+    border: 1px solid #fff;
     width: 900px;
     display: flex;
     justify-content: space-between;
-}
+  }
 
-.links {
+  .links {
+    border: 1px solid #fff;  /* For debugging */
     display: flex;
     justify-content: flex-end;
-
-}
-
-.login {
+  }
+  
+  .login {
     margin-left: 20px;
-}
+  }
+
+  .header-container {
+    color: #5995DA;
+    background-color: #D6E9FE;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .header {
+    width: 900px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+  }
